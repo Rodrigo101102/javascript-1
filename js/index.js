@@ -14,4 +14,4 @@ function crearTarjetasProductosInicio(productos){
     nuevaComida.getElementsByTagName("button")[0].addEventListener("click",() => agregarAlCarrito(producto))
   });
 }
-crearTarjetasProductosInicio(comida);
+crearTarjetasProductosInicio(carrito);
